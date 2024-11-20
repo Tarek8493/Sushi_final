@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" >
+    
+</head>
+<style></style>
+<body>
+  
+    <div class="nav" id="blob">
+        <button class="dropbtn2" ><a href="index.html"style="color: black;">Home</a></button>
+        <button class="dropbtn2"style="background-color: rgb(255, 152, 17);"><a href="orders.html"style="color: black;">order here</a></button>
+        <button class="dropbtn2"><a href="http://127.0.0.1:5500/menue%20pages/lunch_menue.html"style="color: black;">lunch menue</a></button>
+        <button class="dropbtn2"><a href="http://127.0.0.1:5500/menue%20pages/dinner_menue.html"style="color: black;">dinner menue</a></button>
+        <div class="dropdown" style="color:white;">
+          <button class="dropbtn2">apatizers and rolls menues</button>
+          <div class="dropdown-content" style="text-align: center;">
+            <a href="http://127.0.0.1:5500/menue%20pages/rolls1.html">rolls 1</a>
+            <a href="http://127.0.0.1:5500/menue%20pages/rolls2.html">rolls 2</a>
+            <a href="http://127.0.0.1:5500/menue%20pages/apatizers_menue.html">apatizers</a>
+            <a href="http://127.0.0.1:5500/menue%20pages/sushi.html"> sushi</a>
+          </div>
+        </div> 
+      </div>
+      <body style="background-color: beige;">
+        <h1>Ordering</h1>
+        <h2>Name and Phone Number</h2>
+        <form action="" id="name-form">
+            <label for="fname">first name:</label><br>
+            <input type="text"name="fname"id=fname><br>
+            <label for="lname">last name</label><br>
+            <input type="text"name="lname"id="lname"><br>
+            <label for="PN">Phone Number</label><br>
+            <input type="text" name="PN" id="PN"><br>
+            </form>
+    <br>
+    
+    <input type="button" value="SUBMIT" onclick="order()">
+    
+    <p>please order at (425) 556-9600.</p>
+    <p id="order" style="font-size: large;"></p>
+    <script src="js/form.js"></script>
+    
+    </body>
